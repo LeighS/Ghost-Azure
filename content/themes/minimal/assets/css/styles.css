@@ -75,7 +75,8 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background: transparent; }
+  background: transparent;
+}
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
@@ -176,7 +177,11 @@ hr {
  * Contain overflow in all browsers.
  */
 pre {
-  overflow: auto; }
+  overflow: auto;
+  background-color: rgb(240,240,240);
+  border-radius: 3px;
+  padding: 0.2em;
+  }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
@@ -186,7 +191,10 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em;
+    background-color: rgb(240,240,240);
+}
+
 
 /* Forms
 ========================================================================== */
@@ -461,7 +469,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #cccccc;
+  color:  #1a0dab;
   transition: all 0.3s ease; }
   a:hover {
     color: #222222; }
@@ -495,8 +503,8 @@ hr {
 }
 
 .content {
-  width: 50%;
-  margin-right: 25%;
+  width: 80%;
+  margin-right: 10%;
   margin-top: 5%;
   float: right; }
 
@@ -535,7 +543,7 @@ hr {
 .profile-image {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
-  border-radius: 100%; 
+  border-radius: 100%;
   width: 118px;
   height: 118px;
 }
@@ -698,8 +706,8 @@ hr {
   color: #dddddd; }
 
 .author p.link {
-  margin-bottom: 10px; 
-  color: white;  
+  margin-bottom: 10px;
+  color: white;
   margin-top:10px;
   font-size:22px;
   font-family: Roboto;
@@ -752,11 +760,11 @@ body.post-template .site-header h2 .logo {
   position: fixed;
   margin-top: 70px;
   z-index: 1;
-  
+
 }
 @media only screen and (min-width: 1200px) and (max-width: 1799px) {
   .container {
-    width: 100%; } 
+    width: 100%; }
 
   .plane {
     width:300px;
@@ -764,28 +772,28 @@ body.post-template .site-header h2 .logo {
 
 @media only screen and (min-width: 800px) and (max-width: 1199px) {
   .container {
-    width: 100%; } 
+    width: 100%; }
 
   .plane {
     width:250px;
-    margin-top: 20px;} 
-  .content { 
+    margin-top: 20px;}
+  .content {
     width:80%;
-    margin-right: 15%;
+    margin-right: 10%;
     margin-top: 5%;}
 }
 
 @media only screen and (min-width: 720px) and (max-width: 799px) {
   .container {
-    width: 100%; } 
+    width: 100%; }
 
   .plane {
     width:200px;
-    margin-top: 20px;} 
+    margin-top: 20px;}
 
-  .content { 
+  .content {
     width:80%;
-    margin-right: 15%;
+    margin-right: 10%;
     margin-top: 5%;} }
 
 @media only screen and (max-width: 719px) {
@@ -808,12 +816,12 @@ body.post-template .site-header h2 .logo {
     width: 90px;
     height: 74px;
     margin: -45px 0 0 -37px;
-    background-size: 90px 74px; } 
+    background-size: 90px 74px; }
   .lateral {
     position: inherit !important;
     width: 100% !important;
     height: 450px !important; }
-  .home { 
+  .home {
     width:100% !important;}
   .post h2 a {
     font-size: 30px !important;}
@@ -850,7 +858,7 @@ body.post-template .site-header h2 .logo {
 /*  background-color: #072035; */
   height: 100%;
   position: fixed;
-  width: 30%;
+  width: 25%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e3d66+0,072035+100 */
   background: #0e3d66; /* Old browsers */
   background: -moz-linear-gradient(top,  #0e3d66 0%, #072035 100%); /* FF3.6-15 */
@@ -861,7 +869,7 @@ body.post-template .site-header h2 .logo {
 }
 
 .home {
-  width: 70%;
+  width: 75%;
   float: right;
 }
 
