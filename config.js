@@ -3,8 +3,8 @@
 // Documentation can be found at http://support.ghost.org/config/
 
 var path = require('path'),
-    websiteUrl = process.env.websiteUrl,
-    websiteUrlSSL = process.env.websiteUrlSSL,
+    websiteUrl = 'http://leighshayler.net',
+    websiteUrlSSL = 'https://leighshayler.net',
     config;
 
 // Azure Feature
